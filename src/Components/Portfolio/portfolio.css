@@ -70,3 +70,25 @@
 #specialbtn:hover{
     border: 1px solid var(--color-black);
 }
+
+@media screen and (max-width:1024px){
+    .portfolio__head h3{
+        width: 40%;
+    }
+    .portfolio__head-right{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .portfolio__projects{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:425px){
+    .portfolio__head{
+        display: flex;
+        flex-direction: column;
+    }
+}

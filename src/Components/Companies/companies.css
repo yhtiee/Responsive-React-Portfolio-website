@@ -17,6 +17,8 @@ section#companies{
     padding: 2.4rem;
 }
 
-/* .companies__container span img{
-    height: 4rem;
-} */
+@media screen and (max-width:1024px){
+    .companies__container span{
+        padding: 1.4rem;
+    }
+}

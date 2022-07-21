@@ -37,11 +37,11 @@ const Contact = () => {
                 </ul>
             </div>
             <form ref={form} onSubmit={sendEmail}>
-              <div> <label htmlFor="name"> Your Name:</label> <input type="text" name='name' /></div>
+              <div> <label htmlFor="name"> Your Name:</label> <input type="text" name='name' required/></div>
              
-               <div><label htmlFor="email"> Your Email:</label> <input type="email" name='email' /></div>
+               <div><label htmlFor="email"> Your Email:</label> <input type="email" name='email' required /></div>
                 
-               <div> <label htmlFor="message">Message:</label>  <textarea name="message" rows="6" ></textarea></div>
+               <div> <label htmlFor="message">Message:</label>  <textarea name="message" rows="6" required></textarea></div>
                
                 <button type='submit'  className='btn' id='btn1'> Send <AiOutlineArrowRight/> </button>
             </form>

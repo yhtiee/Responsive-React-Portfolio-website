@@ -11,12 +11,33 @@ const Nav = () => {
   const openToogle = ()=>{
       setNavbarOpen(prev => !prev)
   }
-  const handleFunction = () => {
+  const handleFunctionHeader = () => {
+
+    setNavbarOpen(false)
     setActiveNav("#header")
+   
+  }
+  const handleFunctionServices = () => {
+
     setNavbarOpen(false)
     setActiveNav("#services")
+  
+  }
+  const handleFunctionPortfolio = () => {
+
+    setNavbarOpen(false)
     setActiveNav("#portfolio")
+    
+  }
+  const handleFunctionContact = () => {
+
+    setNavbarOpen(false)
     setActiveNav("#contact")
+  }
+  const handleFunction = () => {
+
+    setNavbarOpen(false)
+    
   }
   return (
     <nav>
@@ -27,10 +48,10 @@ const Nav = () => {
         </a>
 
         <ul className={`nav__menu ${navbarOpen ? " show__menu" : ""}`}>
-            <li><a href="#header" onClick={handleFunction} className={activeNav === "#header" ? "active": " "}>HOME</a></li>
-            <li><a href="#services"  onClick={handleFunction} className={activeNav === "#services" ? "active": " "}>SERVICES</a></li>
-            <li><a href="#portfolio"  onClick={handleFunction} className={activeNav === "#portfolio" ? "active": " "}>PORTFOLIO</a></li>
-            <li><a href="#contact"  onClick={handleFunction} className={activeNav === "#contact" ? "active": " "}>CONTACT</a></li>
+            <li><a href="#header" onClick={handleFunctionHeader} className={activeNav === "#header" ? "active": " "}>HOME</a></li>
+            <li><a href="#services"  onClick={handleFunctionServices} className={activeNav === "#services" ? "active": " "}>SERVICES</a></li>
+            <li><a href="#portfolio"  onClick={handleFunctionPortfolio} className={activeNav === "#portfolio" ? "active": " "}>PORTFOLIO</a></li>
+            <li><a href="#contact"  onClick={handleFunctionContact} className={activeNav ==="#contact" ? "active": " "}>CONTACT</a></li>
             <li><a href={CV} download className="btn btn-primary" onClick={handleFunction}> <BsDownload/> Download CV </a></li>
         </ul>
 

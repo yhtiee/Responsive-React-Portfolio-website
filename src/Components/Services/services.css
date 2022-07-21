@@ -72,3 +72,22 @@ section#services{
 .services__card:hover a{
     margin-left: 1rem;
 }
+@media screen and (max-width: 1024px){
+    .services__container{
+        grid-template-columns: 1fr;
+    }
+    /* .services__left{
+        display: none;
+    } */
+    .services__cards{
+        gap: 1rem;
+    }
+
+}
+@media screen and (max-width:768px){
+    .services__cards{
+        display: flex;
+        flex-direction: column;
+
+    }
+}

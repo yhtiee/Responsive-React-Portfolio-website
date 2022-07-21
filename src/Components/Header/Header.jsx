@@ -19,7 +19,7 @@ const Header = () => {
                     <p>
                         A Full Stack Web Developer. I have helped clients worldwide bring their ideas to the online market. Lets collaborate today!
                     </p>
-                    <a href="#contact" className='btn btn-primary btn-lg'> Get in Touch </a>
+                    <a href="#contact" className='btn btn-primary btn-lg' id='button'> Get in Touch </a>
                </div>
             </div>  
             <div className="header__right">

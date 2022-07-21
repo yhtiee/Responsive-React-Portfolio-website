@@ -62,3 +62,71 @@ form input,textarea{
         width: 30rem;
     }
 }
+@media screen and (max-width:1024px){
+    .contact__container{
+        gap: 2rem;
+    }
+    .contact__socials a{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 768px){
+    form div{
+        width: 100%;
+    }
+    form div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact__left{
+        text-align: center;
+    }
+   .contact__socials{
+    margin-left: 25%;
+   }
+
+
+}
+@media screen and (max-width:500px){
+    .contact__socials{
+        position: absolute;
+        right: 10rem;
+    }
+    form input, textarea{
+        width: 25rem;
+    }
+}
+@media screen and (max-width:425px){
+    .contact__socials{
+        position: absolute;
+        right: 8.5rem;
+    }
+    form input, textarea{
+        width: 25rem;
+    }
+}
+@media screen and (max-width:375px){
+    .contact__socials{
+        position: absolute;
+        right: 7rem;
+    }
+    form input, textarea{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:320px){
+    .contact__socials{
+        position: absolute;
+        right: 5.5rem;
+    }
+    form input, textarea{
+        width: 15rem;
+    }
+}
