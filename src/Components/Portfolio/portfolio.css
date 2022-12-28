@@ -31,41 +31,143 @@
     margin-top: 4rem;
     display: flex;
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio__project{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio__project-img{
+    width: 70rem;
+    height: 550px;
+    background-image:url("../../Assets/sfh.PNG"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.portfolio__project2-img{
+    width: 70rem;
+    height: 550px;
+    background-image:url("../../Assets/roothub_management.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.portfolio__project3-img{
+    width: 70rem;
+    height: 550px;
+    background-image:url("../../Assets/TFAP.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.portfolio__project-img:hover{
+    /* background: black; */
+    width: 70rem;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Assets/sfh.PNG"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+.portfolio__project2-img:hover{
+    /* background: black; */
+    width: 70rem;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Assets/roothub_management.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+.portfolio__project3-img:hover{
+    /* background: black; */
+    width: 70rem;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Assets/TFAP.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.portfolio_descriptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio_description1 p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.portfolio_display{
+    display: none;
+}
+
+.portfolio__project-img:hover .portfolio_display{
+    display: block;
+}
+
+.portfolio__project2-img:hover .portfolio_display{
+    display: block;
+}
+
+.portfolio__project3-img:hover .portfolio_display{
+    display: block;
+}
+
+/* .portfolio__project-img{
     height: 12rem;
     display: block;
     border: 1rem solid var(--color-white);
     overflow: hidden;
     box-shadow: 0 0 1.4rem var(--color-primary-variant);
     transition: all 400ms ease;
-}
+} */
 
-.portfolio__project-img:hover{
+/* .portfolio__project-img:hover{
     box-shadow: none;
-}
+} */
 
-.portfolio__project-img:hover img{
+/* .portfolio__project-img:hover img{
     transform: 0;
     transition: all 2000ms ease;
-}
+} */
 
 .portfolio__CTA{
+    margin-top: 1rem;
     display: flex;
     gap: 1rem;
 }
 
-.portfolio__project-img:hover img{
+/* .portfolio__project-img:hover img{
     transform: translateY(calc(-100% + 10rem));
-}
+} */
 
 #specialbtn:hover{
     border: 1px solid var(--color-black);
@@ -78,6 +180,12 @@
     .portfolio__head-right{
         width: auto;
     }
+    .portfolio__project-img{
+        width: 58rem;
+    }
+    .portfolio__project-img:hover{
+        width: 58rem;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -85,10 +193,26 @@
         display: flex;
         flex-direction: column;
     }
+    .portfolio__project-img{
+        width: 43rem;
+        height: 400px;
+    }
+    .portfolio__project-img:hover{
+        width: 43rem;
+        height: 400px;
+    }
 }
 @media screen and (max-width:425px){
     .portfolio__head{
         display: flex;
         flex-direction: column;
+    }
+    .portfolio__project-img{
+        width: 24rem;
+        height: 400px;
+    }
+    .portfolio__project-img:hover{
+        width: 24rem;
+        height: 400px;
     }
 }

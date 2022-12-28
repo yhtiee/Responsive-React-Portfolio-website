@@ -1,6 +1,6 @@
 import React from 'react'
 import "./nav.css"
-import CV from "../../Assets/Resume.pdf"
+import CV from "../../Assets/Resume_Utibeabasi_Ukeme.pdf"
 import {BsDownload} from "react-icons/bs"
 import {GiHamburgerMenu} from "react-icons/gi"
 import {AiOutlineClose} from "react-icons/ai"
@@ -56,7 +56,7 @@ const Nav = () => {
         </ul>
 
         <button onClick={openToogle}> {navbarOpen? <AiOutlineClose id='close-menu-btn'/> : <GiHamburgerMenu id='open-menu-btn' /> }</button>
-       
+        
       </div>
     </nav>
   )

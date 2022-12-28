@@ -13,7 +13,7 @@ const Services = () => {
     <section id='services'>
         <div className='container services__container'>
             <div className="services__left">
-                <h1> 3+ </h1>
+                <h1> 1+ </h1>
                 <h4> Years Experience </h4>
                 <small> I have experience in both frontend and backend technologies. which i use in combination with my creativity to create simple and beautiful sites the users will love.</small>
             </div>

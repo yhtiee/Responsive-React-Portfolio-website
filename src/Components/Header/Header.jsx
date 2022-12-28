@@ -1,11 +1,12 @@
 import React from 'react'
 import "./header.css"
-import ME from '../../Assets/pic.png'
+import CE from '../../Assets/new_profile.png'
 import {BsInstagram} from "react-icons/bs"
 import {BsFacebook} from "react-icons/bs"
 import {BsGithub} from "react-icons/bs"
 import {BsTwitter} from "react-icons/bs"
-import Nav from '../Nav/Nav'
+import {BsLinkedin} from "react-icons/bs"
+// import Nav from '../Nav/Nav'
 const Header = () => {
   return (
 
@@ -24,15 +25,16 @@ const Header = () => {
             </div>  
             <div className="header__right">
                 <div className="header__image">
-                    <img src={ME} alt="profile" />
+                    <img src={CE} alt="profile" />
                 </div>
                 <div className="header__right-bg">
                 </div>
                     <ul className='header__socials'>
-                        <li><a href="https://www.instagram.com/utibeabasiukeme/" target='_blank'> <BsInstagram/></a></li>
-                        <li><a href="https://web.facebook.com/utibeabasi.ukeme.9/" target='_blank'> <BsFacebook/></a></li>
-                        <li><a href="https://github.com" target='_blank'> <BsGithub/></a></li>
-                        <li><a href="https://twitter.com" target='_blank'> <BsTwitter/></a></li>
+                        <li><a href="https://www.instagram.com/utibeabasi_dev/" target='_blank' rel="noreferrer"> <BsInstagram/></a></li>
+                        <li><a href="https://facebook.com" target='_blank' rel="noreferrer"> <BsFacebook/></a></li>
+                        <li><a href="https://github.com/yhtiee" target='_blank' rel="noreferrer"> <BsGithub/></a></li>
+                        <li><a href="https://twitter.com" target='_blank' rel="noreferrer"> <BsTwitter/></a></li>
+                        <li><a href="https://www.linkedin.com/in/utibeabasi-ekpenyong-4768a017a/" target='_blank' rel="noreferrer"> <BsLinkedin/></a></li>
                     </ul>
             </div> 
        </div>

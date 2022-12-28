@@ -30,9 +30,9 @@ const Contact = () => {
                     Contact me so we can collaborate and build interactive web applications to scale up your company.
                 </p>
                 <ul className='contact__socials'>
-                        <li><a href="https://instagram.com" target='_blank' rel="noreferrer"> <BsInstagram/></a></li>
+                        <li><a href="https://www.instagram.com/utibeabasi_dev/" target='_blank' rel="noreferrer"> <BsInstagram/></a></li>
                         <li><a href="https://facebook.com" target='_blank' rel="noreferrer"> <BsFacebook/></a></li>
-                        <li><a href="https://github.com" target='_blank' rel="noreferrer"> <BsGithub/></a></li>
+                        <li><a href="https://github.com/yhtiee" target='_blank' rel="noreferrer"> <BsGithub/></a></li>
                         <li><a href="https://twitter.com" target='_blank' rel="noreferrer"> <BsTwitter/></a></li>
                 </ul>
             </div>
